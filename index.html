@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7COM1076 Cloud Emulation</title>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 16px;
+            padding: 48px 56px;
+            max-width: 520px;
+            width: 90%;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+            text-align: center;
+        }
+        .module-tag {
+            background: #0f3460;
+            color: #fff;
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 6px 18px;
+            border-radius: 30px;
+            display: inline-block;
+            margin-bottom: 24px;
+        }
+        h1 { color: #1a1a2e; font-size: 26px; font-weight: 700; margin-bottom: 8px; }
+        .subtitle { color: #666; font-size: 14px; margin-bottom: 32px; }
+        .info-block {
+            background: #f4f7fc;
+            border-left: 4px solid #0f3460;
+            border-radius: 8px;
+            padding: 16px 20px;
+            text-align: left;
+            margin-bottom: 28px;
+        }
+        .info-row {
+            display: flex;
+            justify-content: space-between;
+            padding: 6px 0;
+            font-size: 14px;
+            border-bottom: 1px solid #e0e6f0;
+        }
+        .info-row:last-child { border-bottom: none; }
+        .info-label { color: #888; font-weight: 500; }
+        .info-value { color: #1a1a2e; font-weight: 600; }
+        .hosted-badge {
+            background: #e8f5e9;
+            color: #2e7d32;
+            border: 1px solid #a5d6a7;
+            padding: 10px 24px;
+            border-radius: 8px;
+            font-size: 13px;
+            font-weight: 600;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="module-tag">7COM1076</div>
+        <h1>Network Systems &amp; Security</h1>
+        <p class="subtitle">Cloud Services Emulation — Task 2</p>
+        <div class="info-block">
+            <div class="info-row">
+                <span class="info-label">Student ID</span>
+                <span class="info-value">23097945</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Module</span>
+                <span class="info-value">7COM1076</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Academic Year</span>
+                <span class="info-value">2025 / 2026</span>
+            </div>
+            <div class="info-row">
+                <span class="info-label">Platform</span>
+                <span class="info-value">Render.com</span>
+            </div>
+        </div>
+        <div class="hosted-badge">&#10003; Deployed on Render.com</div>
+    </div>
+</body>
+</html>
